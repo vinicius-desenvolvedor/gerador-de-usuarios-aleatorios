@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    
+    <script src="getUsuarios.js"></script>
+
+    <title>Gerador de usuário aleatório</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light mb-4">
+      <div class="container">
+        <div class="navbar-brand mb-0 h1 mx-auto">
+          <h3 class="text-center"><strong>Gerador de usuário aleatório</strong></h3>
+          <p>Gerado através da API <a href="https://randomuser.me/" target="_blank">https://randomuser.me/</a></p>
+        </div>
+      </div>
+    </nav>
+    <div class="container" id="lista">
+      <div class="row mb-5 mx-auto">
+        <div class="col"></div>
+        <div class="col d-flex justify-content-center">
+          <button type="button" class="btn btn-success text-center" onclick="getUsuarios()">
+            Gerar usuário
+          </button>
+        </div>
+        <div class="col"></div>
+
+      </div>
+      
+      
+    </div>
+  </body>
+</html>
