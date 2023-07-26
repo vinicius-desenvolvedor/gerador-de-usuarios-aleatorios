@@ -1,3 +1,7 @@
+// Autor: Vinícius Lopes
+// Site: https://viniciusdesenvolvedor.com.br
+
+
 function getUsuarios() {
     // verificamos se já existe uma div com a id="usuario", para gerar uma de cada vez
     if (document.getElementById('usuario')) {
